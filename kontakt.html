@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="assets//cold-drink.png">
+    <link rel="stylesheet" href="style\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header id="hd">
+        <nav>
+            <div class="centriranje">
+                <div class="Logo">
+                    <a href="index.html">Al
+                    <span>Fresco</span>
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="meni.html">Meni</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="kolokvijumRAd.zip" download>Zip</a></li>
+                    <li><a href="autor.html">Autor</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="kontakt">
+        <h1>Rezervacija</h1>
+        <p class="kontakt-opis">
+        Rezervisi svoj sto brzo i jednostavo putem naše online forme.
+        </p>
+
+    <form class="kontakt-forma">
+        <label>Ime i Prezime</label>
+        <input type="text" placeholder="Unesite ime i prezime" name="ime" class="inp">
+
+        <label>Email</label>
+        <input type="email" placeholder="Unesite email" name="gmail" class="inp">
+        <div id="pomeranje">
+        <label>Izaberite dan</label>
+        <br>
+        <div class="radio-grupa">
+            <label id="l1">Petak<input type="radio" name="dan" value="Petak"></label>
+            <label id="l2">Subota<input type="radio" name="dan" value="Subota"></label>           
+        </div>
+        </div>
+        <div id="Drop">
+            <label>Broj osoba
+                    <select name="selekt">
+                        <option disabled selected>Izaberi</option>
+                        <option>2-4</option>
+                        <option>5-8</option>
+                        <option>9-15</option>
+                    </select>
+            </label>
+        </div>
+        <button type="submit">Rezervišite</button>
+    </form>  
+        
+    
+        <br>
+        <br>
+    <form class="komentari">
+        <label>Napišite utiske o provodu i usluzi našeg lokala</label>
+        <textarea name="komentar"></textarea>
+
+        <button type="submit">Pošaljite</button>
+    </form>
+</section>
+<footer>
+        <div id="kontakt-sekcija">
+            <div class="footer-top">
+                <div class="Logo">
+                    <a href="index.html">Al<span>Fresco</span></a>                   
+                </div>
+            </div>
+            <footer-nav class="footer-nav">
+                <a href="index.html">Početna</a>
+                <a href="meni.html">Meni</a>
+                <a href="#">Kontakt</a>
+                <a href="galerija.html">Galerija</a>
+                <a href="kolokvijumRAd.zip" download>Zip</a>
+                <a href="autor.html">Autor</a>
+            </footer-nav>
+            <div class="desno">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
